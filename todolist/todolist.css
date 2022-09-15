@@ -1,0 +1,82 @@
+body{
+    
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    overflow: scroll;
+
+
+
+    
+}
+
+
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: fantasy;
+    width: 200px;  
+
+}
+#input{
+
+    width:200px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-color: black;
+    border-style: double;
+    
+
+}
+
+#button{
+
+    margin-left: 10px;
+    margin-top: 5px;
+    border-color: black;
+    border-style: double;
+    cursor: pointer;
+}
+
+
+/* .todolist ul li {
+    width: 200px;
+} */
+
+#todo{
+    overflow: hidden;
+    display: block;
+}
+.todoeditor{
+    display: flex;
+    background-color: antiquewhite;
+    width: 400px;
+    justify-content: space-around;
+}
+li{
+    flex: 1;
+}
+
+.ok_item_ed{
+    opacity: 0.5;
+}
+
+.ok_item_ed li{
+    text-decoration: line-through;
+
+}
+
+
+.fa-check, .fa-trash{
+    pointer-events: none;
+
+}
+
+
+
+/* .circle{ */
+    /* border: 10px dotted black; */
+/* } */
